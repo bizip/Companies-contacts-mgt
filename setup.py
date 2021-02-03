@@ -10,8 +10,8 @@ from company_contacts import __version__ as version
 setup(
 	name='company_contacts',
 	version=version,
-	description='This app will manage the contacts for different company',
-	author='Bizimungu Pascal',
+	description='Managing the contacts for the companies',
+	author='Bizimungu pascal',
 	author_email='bizip04@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,

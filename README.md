@@ -1,6 +1,6 @@
-## Company Contacts
+## Company contacts
 
-This app will manage the contacts for different company
+Managing the contacts for the companies
 
 #### License
 
