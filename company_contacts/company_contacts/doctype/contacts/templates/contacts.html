@@ -1,0 +1,18 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ title }}</h1>
+{% endblock %}
+
+<!-- this is a sample default web page template -->
+
+<div class="jumbotron jumbotron bg-primary">
+    <div class="container">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+  <script>
+
+    console.log(document.querySelector('.page-header').childNodes[1].textContent)
+    </script>

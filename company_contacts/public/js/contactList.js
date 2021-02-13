@@ -1,0 +1,2 @@
+alert();
+console.log("hello");

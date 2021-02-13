@@ -1,0 +1,58 @@
+<script>
+
+  var list1=document.querySelector('.page-header').childNodes[1];
+  list1.textContent="CONTACT LIST FOR THIS WEEK"
+  list1.classList='contact-list'
+  </script>
+<style>
+  body{
+   background-color:#eff1ee;
+  }
+  .contact-list{
+font-weight: 300;
+font-size: 2rem;
+margin-right:100px;
+color: black;
+  }
+  .navbar-light{
+    background-color: #cdd0cb;
+  }
+  .page-breadcrumbs{
+    display: none;
+  }
+  img{
+    border-radius: 50%;
+    width:10rem;
+  }
+  .contactStyle{
+    background-color:#cdd0cb;
+    border-radius: 10px;
+    box-shadow:  black, 0 0 25px blue, 0 0 5px darkblue;
+    color: black;
+  }
+</style>
+
+
+<div class="container contactStyle mb-4">
+  <div class="row">
+    <div class="col-sm text-center">
+    <img src="{{ profile }}" alt="User 1" class="review__photo mt-4">
+    </div>
+    <div class="col-sm text-center p-5">
+      <div class="review__user-box">
+        <p class="review__user-name"><b>{{ name }}</b></p>
+        <p class="review__user-date">{{ position }}</p>
+        <p class="review__user-date">{{ phone }}</p>
+     
+      </div>
+    </div>
+    <div class="col-sm pt-5 text-center">
+      <p class="review__user-date">{{ company }}</p>
+      <a href="/http://0.0.0.0:8000/people/{{ name }}" type="button" class="btn btn-outline-secondary w-50 mb-4">Contact</a>
+    </div>
+  </div>
+</div>
+
+
+
+
